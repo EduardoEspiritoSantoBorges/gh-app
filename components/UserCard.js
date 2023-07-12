@@ -4,7 +4,7 @@ import { RepoIcon, PeopleIcon } from '@primer/octicons-react';
 import appConfig from "../config.json";
 
 export default function UserCard(props) {
-    const [username, setUsername] = useState('Carol42');
+    const [username, setUsername] = useState('EduardoEspiritoSantoBorges');
     const [userName, setUserName] = useState('');
     const [userBio, setUserBio] = useState('');
     const [userRepos, setUserRepos] = useState();

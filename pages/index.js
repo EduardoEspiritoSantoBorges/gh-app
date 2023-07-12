@@ -75,7 +75,7 @@ export default function PaginaInicial() {
                 styleSheet={{
                     display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column',
                     backgroundColor: appConfig.theme.colors.primary['800a'],
-                    backgroundImage: 'url(https://c4.wallpaperflare.com/wallpaper/990/592/909/video-games-shadow-of-the-colossus-video-game-art-wallpaper-preview.jpg)',
+                    backgroundImage: 'url(https://githubuniverse.com/hero-logo.webp)',
                     backgroundSize: '100%'
                     
                 }}
@@ -108,8 +108,8 @@ export default function PaginaInicial() {
                             width: { xs: '100%', sm: '50%' }, textAlign: 'center', marginBottom: '32px',
                         }}
                     >
-                        <Title tag="h2">Hey you!</Title>
-                        <Subtitle tag="h3">Together we stand, divided we fall!</Subtitle>
+                        <Title tag="h2">GitHub Finder</Title>
+                        <Subtitle tag="h3">Pesquise por um usuário do GitHub</Subtitle>
                         <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals[300] }}>
                             {appConfig.name}
                         </Text>
